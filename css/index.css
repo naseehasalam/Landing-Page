@@ -9,7 +9,7 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items:baseline;
+    align-items:center;
     list-style-type: none;
     padding:20px;
     margin:0;
@@ -19,23 +19,20 @@ div{
 
 .navbar .logo{
     margin-right: auto;
-    flex:3 1 auto;
-    color: #F9FAF8;
-    font-weight: 24px;
+    flex:3 1 0;
 }
 
 ul a{
     text-decoration: none;
-    font-weight: 18px;
+    font-weight: 40px;
     color:#E5E7EB
 }
 
 .web-details{
     background-color: #1F2937;
-    margin-top:0;
+    margin:0;
     padding: 20px;
     display: flex;
-    width:1500px;
     
 }
 
@@ -65,8 +62,8 @@ ul a{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
-    margin: 0px 50px 0px 50px;
+    gap:20px;
+    margin: 0px 50px 50px 50px;
 }
 
 .skills .skilldesc p{
@@ -100,7 +97,7 @@ ul a{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    width:1600px;
+    margin:0px;
     height:500px;
     font-style: italic;
     font-weight: 36px;
@@ -121,5 +118,22 @@ ul a{
 .contactme button{
     margin-right: 0;
     margin-left: auto;
+}
+.web-details img{
+    border-radius: 10px;
+    
+}
+
+.logo img{
+    height:150px;
+    width:250px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    height:100px;
+    padding:50px;
 }
 
